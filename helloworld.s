@@ -1,7 +1,7 @@
 .section .rodata             # read-only static data
 .globl hello
 hello:
-  .string "Hello, world!"    # zero-terminated C string
+  .string "Hello, world!!! demo"    # zero-terminated C string
 
 .text
 .global main
