@@ -1,9 +1,13 @@
+; 07/03/2020 23:30 relax cat music!
 ; data: The data section is used for declaring initialized data or constants. 
 ;       This data does not change at runtime. You can declare various constant values, file names, or buffer size.
 ; text: code
+; bss: declaring variables
 ; COMPILE: 
 ;    nasm -f elf hi.asm ---> generated hi.o
 ;    ld -m elf_i386 hi.o ----> generated a.out
+;
+; [label]   mnemonic   [operands]   [;comment]
 
 section	.data
     msg db 'hi, cruel foxy overthere', 0xa  ;string to be printed
