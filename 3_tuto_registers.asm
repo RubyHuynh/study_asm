@@ -1,4 +1,4 @@
-; Processor registers:
+; 10/3/2020 3a.m Processor registers:
 ;     Generals registers:
 ;        Pointer register: EIP, ESP, EBP
 ;               IP (Instructor pointer), SP (Stack pointer), BP (Base pointer)
