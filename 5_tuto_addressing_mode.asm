@@ -28,7 +28,7 @@ _start:             ;tell linker entry point
    mov	eax,4       ;system call number (sys_write)
    int	0x80        ;call kernel
 	
-   mov	[name],  dword 'meo'    ; Changed the name to Nuha Ali
+   mov	[name],  dword '111'    ; Changed the name to Nuha Ali
 	
    mov	edx,8       ;message length
    mov	ecx,name    ;message to write
