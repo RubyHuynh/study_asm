@@ -10,4 +10,6 @@ USER gitpod
 #     sudo rm -rf /var/lib/apt/lists/*
 #
 # More information: https://www.gitpod.io/docs/42_config_docker/
-RUN sudo apt-get install nasm valgrind
+RUN sudo apt-get install nasm
+
+# no no, brew install nasm
